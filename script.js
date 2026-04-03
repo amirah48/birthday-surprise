@@ -5,13 +5,13 @@ const mainImage = document.getElementById("mainImage");
 
 /* الصور */
 const stepImages = {
-  "1": "img/hi-habibi.jpg",
-  "2": "img/mhjezlek.jpg",
-  "2_1": "img/if-no.jpg",
-  "3": "img/ekhtar.jpg",
-  "end_wait": "img/if-no (2).jpg",
-  "end_surprise": "img/bahebak.jpg",
-  "end_love": "img/special-day.jpg"
+  "1": "hi-habibi.jpg",
+  "2": "mhjezlek.jpg",
+  "2_1": "if-no.jpg",
+  "3": "ekhtar.jpg",
+  "end_wait": "if-no (2).jpg",
+  "end_surprise": "bahebak.jpg",
+  "end_love": "special-day.jpg"
 };
 
 /* الأسئلة */
@@ -56,7 +56,7 @@ const questions = {
     text: `
       <div class="video-container">
         <video class="final-video" controls playsinline>
-          <source src="img/hob-omri.mp4" type="video/mp4">
+          <source src="hob-omri.mp4" type="video/mp4">
           متصفحك لا يدعم تشغيل الفيديو
         </video>
       </div>
